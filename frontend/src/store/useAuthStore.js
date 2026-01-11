@@ -6,7 +6,7 @@ import { io } from "socket.io-client";
 const BASE_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:3000"
-    : "https://chatify-4zf5.onrender.com";
+    : "https://chatify-backend-pfdn.onrender.com";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
